@@ -21,6 +21,7 @@ print("넓이는 %d 입니다" % a)
 p = 100
 tr = 0.1
 y = 12 * p * (1 - tr)
+# 수학처럼 곱셈 기호(*) 생략하면 안됨.
 print("연봉 = %s 원입니다" % y)
 
 # 3
@@ -57,6 +58,7 @@ for i in names:
     #print(i[0])
     sung.append(i[0])
     # i[0](각 이름을 돌면서 찾은 첫번째 글자)을 sung 리스트에 추가해라
+print("이름은:", names)
 print(sung)
 print("김씨:", sung.count("김"), "명")
 print("이씨:", sung.count("이"), "명")
@@ -94,43 +96,14 @@ print(set(names_list))
 #4
 newlist = list(set(names_list))
 newlist.sort()
+# sort()는 정렬만해주고 출력 안해줌.
+# sort()로 정렬하고 리스트 자체를 다시 출력해야 함
 print(newlist)
+# sort()는 키가 하나만 있을 때는 정렬이 먹힘.(이 문제의 경우 키가 이름밖에 없음. 나이라던지 다른 키 없음)
+# sorted()가 더 안정적이긴 하다고.. 하심
 
 
-# print(nameList[0][0])
-# if nameList.find('이') == 0:
-#      result =+1
-#  else:
-#      result = 0
-#  print(result)
-
-# nameList 성에 이씨 찾기
-# result = 0
-# for i in nameList:
-
-#      if( i[0] == '이'):
-#          result += 1
-    
-# print(result)
 
 
-# sung=[]
-# name=[]
-# for i in nameList:
-#      print(i[0])
-#      work_sung = i[0]
-#      sung.append(work_sung)
-#      print(i[1:])
-#      work_name = i[1:]
-
-
-# print(nameList.count("이"))
-# print(nameList)
-# print(nameList[2][0])
-
-# first_name = []
-# for i in nameList:
-#     print(i[0])
-#     work = i[0]
 
 
