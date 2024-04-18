@@ -1,32 +1,32 @@
-# a = "Life is too short."
-# print(a.upper().lower().replace(" ",",").split(","))
+a = "Life is too short."
+print(a.upper().lower().replace(" ",",").split(","))
 
-# l = [1, 3, 5, 7, 9]
-# print(l)
+l = [1, 3, 5, 7, 9]
+print(l)
 
-# a=[]
-# b=[1,2,3]
-# c=['life', 'is', 'too', 'short.']
-# d=[1,2,'life','too short']
-# e=[1,2,['Life','is']]
+a=[]
+b=[1, 2, 3]
+c=['life', 'is', 'too', 'short.']
+d=[1,2,'life','too short']
+e=[1,2,['Life','is']]
 
-# a=[1,2,3, ['a', 'b', 'c']]
-# print(a[-1][0])
+a=[1,2,3, ['a', 'b', 'c']]
+print(a[-1][0])
 
-# a=[1,2,3]
-# print(a*3)
-# print(len(a))
+a=[1,2,3]
+print(a*3)
+print(len(a))
 
-# print(type(a[2]))
-# print(str(type(a[2])))
-# print(str(a[2])+"살")
+print(type(a[2]))
+print(str(type(a[2])))
+print(str(a[2])+"살")
 
-# a = [1, 2, 3]
-# a.append("안녕하세요")
-# print(a)
+a = [1, 2, 3]
+a.append("안녕하세요")
+print(a)
 
-# a="Scoopy is a dog."
-# print(a.index('k'))
+a = "Scoopy is a dog."
+print(a.index('k'))
 
 
 
@@ -46,7 +46,8 @@ print(price[1:])
 # 다음 소스 코드를 완성하여 리스트 [5, 3, 1, -1, -3, -5, -7, -9]가 출력되게 만드세요. 
 # 리스트를 만들 때는 range를 사용해야 합니다.
 # l=[5, 3, 1, -1, -3, -5, -7, -9]
-a=list(range(5,-10,-2))          
+a=list(range(5,-10,-2)) 
+# step: 음수 = 내림차순 
  
 print(a)
 
